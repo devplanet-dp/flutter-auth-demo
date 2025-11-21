@@ -1,0 +1,108 @@
+# Miscellaneous
+*.lock
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+**/android/app/.cxx/
+
+#environment
+env
+
+# Web related
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/app/.cxx/Debug/
+/android/fastlane/
+
+/ios/fastlane/
+
+#Envs
+.vscode/settings.json
+.env*
+
+#Generated
+*.freezed.*
+*.g.*
+*.gr.*
+*.config.*
+/macos/Flutter/GeneratedPluginRegistrant.swift
+
+#iOS Firebase configs
+GoogleService-Info.plist
+firebase_app_id_file.json
+
+#Android Firebase configs
+google-services.json
+
+#Flutter Firebase configs
+firebase_options.dart
+
+#submodule
+packages/**/pubspec.lock
+pubspec.lock
+
+# Web related
+lib/generated_plugin_registrant.dart
+
+#localization generated files
+/lib/l10n/app_localizations_en.dart
+/lib/l10n/app_localizations.dart
+app_localizations_en.dart
+#router genarated files
+/lib/app/router/app_router.gr.dart
+
+# Exceptions to the above rules.
+!**/ios/**/default.mode1v3
+!**/ios/**/default.mode2v3
+!**/ios/**/default.pbxuser
+!**/ios/**/default.perspectivev3
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+!/dev/ci/**/Gemfile.lock
+!.vscode/extensions.json
+!.vscode/launch.json
+!.idea/codeStyles/
+!.idea/dictionaries/
+!.idea/runConfigurations/
+
+# FVM Version Cache
+.fvm/
